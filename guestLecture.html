@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Online Guest Lectures</title>
+    <style>
+        header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      background-color: #f8f9fa;
+    }
+
+    .club-logo {
+      height: 150px;
+    }
+
+    .club-title {
+      text-align: center;
+      display: none;
+      margin-left: 10px;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    @media (min-width: 768px) {
+      .club-title {
+        display: block;
+      }
+    }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .event {
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+        }
+
+        .event h3 {
+            margin: 0;
+            color: #f39c12;
+        }
+
+        .event p {
+            margin: 5px 0;
+            color: #ddd;
+        }
+
+        .event img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #f39c12;
+            
+            color: #ffffff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #bbb;
+            padding: 20px 0;
+        }
+
+        .footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        body {
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 0;
+            background: #1e3c72; 
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .event {
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .event h3 {
+            margin: 0;
+            color: #f39c12;
+        }
+        .event p {
+            margin: 5px 0;
+            color: #ddd;
+        }
+        .event img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .button {
+            display: inline-block;
+            background: #f39c12;
+            color: #ffffff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #bbb;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+        footer {
+      background-color: #D32F2F;
+      color: white;
+      padding: 40px 0;
+    }
+
+    footer .details {
+      text-align: center;
+    }
+
+    footer .details .text-success {
+      background-color: #f8f9fa;
+      padding: 10px;
+    }
+
+    footer .details a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer .details a:hover {
+      color: #388E3C;
+    }
+
+    footer img {
+      width: 200px;
+      height: 200px;
+    }
+
+    footer .btn {
+      background-color: #388E3C;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer .btn:hover {
+      background-color: #218838;
+    }
+
+    .social-icons img {
+      height: 50px;
+      width: 50px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <img src="logo.JPG" alt="ela logo" class="club-logo">
+          <p class="club-title" style="color: black; font-family: Verdana, Geneva, Tahoma, sans-serif;"><strong>ENGLISH LITERARY ASSOCIATION</strong></p>
+        </div>
+      </header>
+    <div class="container">
+        <div class="header">
+            <h2 style="color: black;">📢 Upcoming Online Guest Lectures!</h2>
+            <p style="color: black;">Join us for insightful sessions with industry professionals.</p>
+        </div>
+        <div class="content">
+            <div class="event">
+                <h3>🎤 ONLINE GUEST LECTURE 1</h3>
+                <p><strong>Topic:</strong> The Power of English: Unlocking Global Opportunities</p>
+                <p><strong>Date:</strong> 12 April 2025</p>
+                <p><strong>Time:</strong> 6:30 PM – 7:30 PM</p>
+                <p><strong>Guest Speaker:</strong>Ms. Harshita Pandaraboyina</p>
+                <p><strong>Venue:</strong> Online (Google Meet)</p>
+                <p><strong>Guest Info:</strong> Former president of the English Literary Association (ELA)</p>
+                <img src="/WhatsApp Image 2025-04-03 at 23.36.24_193dd586.jpg" alt="Guest Lecture 1 Poster">
+            </div>
+            <div style=" display: flex; justify-content: center;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfofPKq7CvPDAKNLSDZTbwW7i7eLTuuvuR6YbDhce78UXDS8A/viewform" class="button">Register Now</a> </div>
+            <p></p><p></p>
+            <div class="event">
+                <h3>🎤 ONLINE GUEST LECTURE 2</h3>
+                <p><strong>Topic:</strong> From Student to Corporate Life: Thriving in the Real World</p>
+                <p><strong>Date:</strong> 13 April 2025</p>
+                <p><strong>Time:</strong> 11:00 AM – 12:00 PM</p>
+                <p><strong>Guest Speaker:</strong> Ms. Vaishnavi Gogineni</p>
+                <p><strong>Venue:</strong> Online (Google Meet)</p>
+                <p><strong>Guest Info:</strong> Successfully secured a ₹23 LPA package as a Data Analyst at WorkIndia</p>
+                <img src="/WhatsApp Image 2025-04-03 at 23.36.25_4f90bd39.jpg" alt="Guest Lecture 2 Poster">
+            </div>
+            <div style=" display: flex; justify-content: center;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeKt0p_n7dy5YKx9R0O9tm2winpIDcGmORKIxfVnpj2O_BPWA/viewform" class="button">Register Now</a> </div>
+        </div>
+        
+        <footer>
+            
+            <div>
+              <p class="text-center" style="text-align: center; background-color: goldenrod; padding: 15px;">
+                For further information: <br>
+                Contact: english.asso@vitap.ac.in <br> <br>
+                Best regards, <br>
+                Faculty co-ordinator: Dr Sudesh Manger <br>
+                Mail: sudesh.manger@vitap.ac.in <br> <br>
+                President: J.G.T. Sandeep <br>
+                Mail: sandeep.22bce8770@vitapstudent.ac.in <br>
+              </p>
+            </div>
+            <div class="social-icons" style="display: flex; align-items: center; justify-content: center;">
+              <p style="padding: 10px; margin-right: 15px;">Follow ELA on Instagram:</p>
+              <a href="https://www.instagram.com/ela_vitap/?igsh=MWpvYW5hZ2dnYXN5YQ%3D%3D" >
+                <img src="https://img.freepik.com/premium-photo/colorful-logo-with-symbol-it_1109006-106599.jpg?w=740" alt="Instagram">
+              </a>
+            </div>
+          </footer>
+    </div>
+</body>
+</html>
